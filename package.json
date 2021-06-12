@@ -1,0 +1,32 @@
+{
+  "name": "webapp40k",
+  "version": "1.0.0",
+  "description": "Homebrew template for futur webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kane-thornwyrd/webapp40K.git"
+  },
+  "keywords": [
+    "template",
+    "webapp",
+    "react",
+    "app",
+    "typescript",
+    "juicy",
+    "animations",
+    "i18n",
+    "recoil",
+    "threejs",
+    "mathjax"
+  ],
+  "author": "Jean-cédric Thérond <jean.cedric.t@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kane-thornwyrd/webapp40K/issues"
+  },
+  "homepage": "https://github.com/kane-thornwyrd/webapp40K#readme"
+}
