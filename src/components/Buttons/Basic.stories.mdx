@@ -1,0 +1,26 @@
+import { Meta, Story, Canvas, Preview } from '@storybook/addon-docs';
+
+import { Basic } from './Basic';
+
+<Meta
+  title="Button/Basic"
+  component={Basic}
+  argTypes={{}}
+  parameters={{
+    controls: {
+      sort: 'requiredFirst',
+    },
+  }}
+/>
+
+export const Template = args => <Basic {...args} />;
+
+<Canvas>
+  <Story name="Basic Button" args={{ label: 'button' }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={Basic} />

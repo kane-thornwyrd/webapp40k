@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0129245"
+     inkscape:cx="241.71604"
+     inkscape:cy="260.18903"
+     inkscape:window-width="1920"
+     inkscape:window-height="984"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient67554">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop67550" />
+      <stop
+         style="stop-color:#040404;stop-opacity:1"
+         offset="1"
+         id="stop67552" />
+    </linearGradient>
+    <rect
+       x="29.400867"
+       y="83.82685"
+       width="612.3953"
+       height="631.30047"
+       id="rect7420" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1556">
+      <stop
+         style="stop-color:#d8d8d8;stop-opacity:1;"
+         offset="0"
+         id="stop1552" />
+      <stop
+         style="stop-color:#b4b4b4;stop-opacity:1"
+         offset="1"
+         id="stop1554" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1556"
+       id="radialGradient1558"
+       cx="70.7918"
+       cy="69.186821"
+       fx="70.7918"
+       fy="69.186821"
+       r="67.73333"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient67554"
+       id="radialGradient67556"
+       cx="86.239151"
+       cy="474.99664"
+       fx="86.239151"
+       fy="474.99664"
+       r="233.76631"
+       gradientTransform="matrix(0.70695056,0.70726297,-1.7628408,1.7620621,862.61578,-416.88669)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#radialGradient1558);fill-opacity:1;stroke:none;stroke-width:1.00012"
+       id="rect1470"
+       width="135.46666"
+       height="135.46666"
+       x="3.05847"
+       y="1.4534907" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0.86527748,-13.848703)"
+       id="text7418"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;line-height:0;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect7420);fill:url(#radialGradient67556);fill-opacity:1;stroke:none"><tspan
+         x="29.400391"
+         y="193.38867"
+         id="tspan68089"><tspan
+           style="font-size:160px;line-height:0.85"
+           id="tspan68087">Web
+</tspan></tspan><tspan
+         x="29.400391"
+         y="329.38867"
+         id="tspan68095"><tspan
+           style="font-size:160px;line-height:0.85"
+           id="tspan68091">App</tspan><tspan
+           style="font-size:66.6667px"
+           id="tspan68093">
+</tspan></tspan><tspan
+         x="29.400391"
+         y="401.47724"
+         id="tspan68099"><tspan
+           style="font-size:66.6667px"
+           id="tspan68097">
+</tspan></tspan><tspan
+         x="29.400391"
+         y="471.47727"
+         id="tspan68103"><tspan
+           style="font-size:66.6667px;line-height:1.25"
+           id="tspan68101">
+</tspan></tspan><tspan
+         x="29.400391"
+         y="554.81064"
+         id="tspan68109"><tspan
+           style="font-size:66.6667px;line-height:1.25"
+           id="tspan68105">     </tspan><tspan
+           style="font-size:160px"
+           id="tspan68107">40K</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "Web Application 40K",
+  "shortName": "webapp40k",
+  "startURL": ".",
+  "theme": "#add8e6",
+  "generateIconOptions": {
+    "baseIcon": "./public/icon.svg",
+    "sizes": [
+      96,
+      152,
+      192,
+      384,
+      512
+    ],
+    "genFavicons": true
+  }
+}

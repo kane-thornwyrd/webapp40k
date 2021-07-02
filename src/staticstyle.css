@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #f2f2f2;
+  background-image: linear-gradient(90deg, #8f8f8f7a, #5f5f5f67, #42424275, #49494973);
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+p {
+  line-height: 1.25em;
+  margin: 0 0 1.25em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.5em; /* 56px */
+  line-height: 1.0714em; /* 60px */
+  margin-top: 0.3571em;
+  margin-bottom: 0em;
+}
+h2 {
+  font-size: 2.625em; /* 42px */
+  line-height: 1.4286em; /* 60px */
+  margin-top: 0.4762em;
+  margin-bottom: 0em;
+}
+h3 {
+  font-size: 1.5em; /* 24px */
+  line-height: 1.6667em; /* 40px */
+  margin-top: 0.8333em;
+  margin-bottom: 0em;
+}
+
+h1:nth-of-type(1) {
+  margin-top: 0;
+}
+
+#app {
+  padding: 1em;
+}
+
+#footer {
+  display: flex;
+  text-align: justify;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background-color: #cecece;
+  background-image: linear-gradient(48deg, #ffffff, #bdbdbd, #aaaaaa, #f0f0f0);
+  box-shadow: inset 0 0.5em 1em #00000055;
+  padding-bottom: 2rem;
+}
+
+#footer a:hover {
+  font-weight: 900;
+}
+
+footer:nth-last-of-type(1)::after {
+  content: "My Company™ 2021 |";
+  text-align: right;
+  display: block;
+  height: 1.5em;
+  width: 100%;
+  background-image: linear-gradient(139deg, #ffffff, #bdbdbd, #757575, #f0f0f0);
+}
+
+
+
+
+.cssload-loader {
+	position: relative;
+  margin: 2em auto;
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	perspective: 780px;
+}
+
+.cssload-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	border-radius: 50%;
+		-o-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+}
+
+.cssload-inner.cssload-one {
+	left: 0%;
+	top: 0%;
+	animation: cssload-rotate-one 1.15s linear infinite;
+		-o-animation: cssload-rotate-one 1.15s linear infinite;
+		-ms-animation: cssload-rotate-one 1.15s linear infinite;
+		-webkit-animation: cssload-rotate-one 1.15s linear infinite;
+		-moz-animation: cssload-rotate-one 1.15s linear infinite;
+	border-bottom: 10px solid #1118c1;
+}
+
+.cssload-inner.cssload-two {
+	right: 0%;
+	top: 0%;
+	animation: cssload-rotate-two 1.15s linear infinite;
+		-o-animation: cssload-rotate-two 1.15s linear infinite;
+		-ms-animation: cssload-rotate-two 1.15s linear infinite;
+		-webkit-animation: cssload-rotate-two 1.15s linear infinite;
+		-moz-animation: cssload-rotate-two 1.15s linear infinite;
+	border-right: 10px solid #1118c1;
+}
+
+.cssload-inner.cssload-three {
+	right: 0%;
+	bottom: 0%;
+	animation: cssload-rotate-three 1.15s linear infinite;
+		-o-animation: cssload-rotate-three 1.15s linear infinite;
+		-ms-animation: cssload-rotate-three 1.15s linear infinite;
+		-webkit-animation: cssload-rotate-three 1.15s linear infinite;
+		-moz-animation: cssload-rotate-three 1.15s linear infinite;
+	border-top: 10px solid #1118c1;
+}
+
+
+
+
+
+
+
+@keyframes cssload-rotate-one {
+	0% {
+		transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate-one {
+	0% {
+		-o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate-one {
+	0% {
+		-ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate-one {
+	0% {
+		-webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate-one {
+	0% {
+		-moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+	}
+}
+
+@keyframes cssload-rotate-two {
+	0% {
+		transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate-two {
+	0% {
+		-o-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-o-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate-two {
+	0% {
+		-ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate-two {
+	0% {
+		-webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate-two {
+	0% {
+		-moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+	}
+}
+
+@keyframes cssload-rotate-three {
+	0% {
+		transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate-three {
+	0% {
+		-o-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-o-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate-three {
+	0% {
+		-ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate-three {
+	0% {
+		-webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate-three {
+	0% {
+		-moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+	}
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #footer {
+    display: flex;
+    text-align: center;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: #bbb;
+    box-shadow: inset 0 0.5em 1em #00000055;
+  }
+
+  #footer a {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 600px) {
+}
