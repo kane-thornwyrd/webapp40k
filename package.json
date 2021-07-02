@@ -2,14 +2,7 @@
   "name": "webapp40k",
   "version": "1.0.0",
   "description": "Homebrew template for futur webapp",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kane-thornwyrd/webapp40K.git"
-  },
+  "sideEffects": false,
   "keywords": [
     "template",
     "webapp",
@@ -28,5 +21,108 @@
   "bugs": {
     "url": "https://github.com/kane-thornwyrd/webapp40K/issues"
   },
-  "homepage": "https://github.com/kane-thornwyrd/webapp40K#readme"
+  "homepage": "https://github.com/kane-thornwyrd/webapp40K#readme",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel serve src/index.html --https --open",
+    "build-prod": "parcel build src/index.html",
+    "e2e": "cypress open",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "1.5.0",
+    "@react-three/gltfjsx": "4.2.2",
+    "memoize": "0.1.1",
+    "react": "16.14.0",
+    "react-dnd": "14.0.2",
+    "react-dnd-html5-backend": "14.0.0",
+    "react-dom": "16.14.0",
+    "react-mathjax2": "0.0.2",
+    "react-router": "6.0.0-beta.0",
+    "react-router-dom": "5.2.0",
+    "react-router-transition": "2.1.0",
+    "react-virtualized": "9.22.3",
+    "react-vis": "1.11.7",
+    "react-vis-timeline": "2.0.3",
+    "styled-components": "5.3.0",
+    "swr": "0.5.6",
+    "tailwindcss": "2.0.4",
+    "three": "0.129.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@storybook/addon-actions": "6.3.2",
+    "@storybook/addon-essentials": "6.3.2",
+    "@storybook/addon-links": "6.3.2",
+    "@storybook/addon-postcss": "2.0.0",
+    "@storybook/addons": "6.3.2",
+    "@storybook/components": "6.3.2",
+    "@storybook/react": "6.3.2",
+    "@storybook/theming": "6.3.2",
+    "@svgr/parcel-plugin-svgr": "5.5.0",
+    "@testing-library/react": "12.0.0",
+    "@types/jest": "26.0.23",
+    "@types/jest-image-snapshot": "4.3.0",
+    "@types/jsdom-screenshot": "3.2.0",
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.7",
+    "@types/styled-components": "5.1.10",
+    "@typescript-eslint/eslint-plugin": "4.28.0",
+    "@typescript-eslint/parser": "4.28.0",
+    "autoprefixer": "10.2.6",
+    "babel-loader": "8.2.2",
+    "cssnano": "3.10.0",
+    "cypress": "7.5.0",
+    "eslint": "7.28.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.24.0",
+    "jest": "27.0.4",
+    "jest-image-snapshot": "4.5.0",
+    "jest-transform-css": "2.1.0",
+    "jest-transform-file": "1.1.1",
+    "jest-transformer-mdx": "3.3.0",
+    "jsdom-screenshot": "4.0.0",
+    "parcel": "2.0.0-beta.3.1",
+    "parcel-plugin-svg-react": "1.0.4",
+    "postcss": "8.3.2",
+    "postcss-modules": "4.1.3",
+    "prettier": "2.3.1",
+    "react-styleguidist": "11.1.7",
+    "react-test-renderer": "16.14.0",
+    "storybook-dark-mode": "1.0.8",
+    "storybook-mobile": "0.1.31",
+    "ts-jest": "27.0.3",
+    "typescript": "4.3.2"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "verbose": true,
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "**/Storyshots.tests.js",
+      "src/**/*.stories.mdx"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/Storyshots.ImageTest.Init.js"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "babel-jest",
+      "^.+\\.(md|mdx)$": "jest-transformer-mdx",
+      "^.+\\.css$": "jest-transform-css",
+      "\\.(jpg|jpeg|png|gif|webp|svg)$": "jest-transform-file"
+    },
+    "extensionsToTreatAsEsm": [
+      ".ts",
+      ".tsx",
+      ".jsx",
+      ".mdx"
+    ]
+  }
 }
